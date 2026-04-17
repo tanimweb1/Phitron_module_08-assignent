@@ -45,3 +45,32 @@ if(n>0){
 
 return 0;
 }
+
+
+
+
+
+
+#include<stdio.h>
+int main(){
+
+    //03
+    int n;
+    scanf("%d",&n);
+
+    int array[n];
+for(int i = 0;i<n;i++){
+    scanf("%d",&array[i]);
+}
+for(int i=n-1;i>0;i = i-1){
+    if(i%2!=0){
+printf("%d ",array[i]);
+
+    }
+    }
+
+return 0;
+}
+
+
+
